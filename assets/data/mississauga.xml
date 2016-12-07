@@ -1,0 +1,262 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header>
+<h:ResponseContext xmlns:h="http://purolator.com/pws/datatypes/v1" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<h:ResponseReference>Ref</h:ResponseReference>
+</h:ResponseContext>
+</s:Header>
+<s:Body>
+<GetLocationsResponse xmlns="http://purolator.com/pws/datatypes/v1" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<ResponseInformation>
+<Errors/>
+<InformationalMessages i:nil="true"/>
+</ResponseInformation>
+<Locations>
+<DepotLocation>
+<LocationId>RA4437</LocationId>
+<LocationTypes>
+<LocationType>ShippingAgent</LocationType>
+</LocationTypes>
+<LocationName>PostNet Mississauga ON131</LocationName>
+<locationAddress>
+<AddressLine1 i:nil="true"/>
+<AddressLine2 i:nil="true"/>
+<AddressLine3 i:nil="true"/>
+<AddressType i:nil="true"/>
+<FloorNumber/>
+<StreetNumber>50</StreetNumber>
+<UnitSuiteApt>86</UnitSuiteApt>
+<CityCode i:nil="true"/>
+<CityName>Mississauga</CityName>
+<ProvinceStateCode>ON</ProvinceStateCode>
+<CountryCode>CA</CountryCode>
+<Direction>W</Direction>
+<PostalCode>L5B3C2</PostalCode>
+<StreetName>Burnhamthorpe</StreetName>
+<StreetType>RD</StreetType>
+<Suffix/>
+</locationAddress>
+<ContactName>Harvijay Singh Dhillon</ContactName>
+<PhoneNumber>905-232-9322</PhoneNumber>
+<SpecialInstructionsEn>Hurontario and Burnhamthorpe Road W, Sussex Centre</SpecialInstructionsEn>
+<SpecialInstructionsFr/>
+<Depot>511</Depot>
+<Unicode>UC55</Unicode>
+<HoldForPickup>true</HoldForPickup>
+<DangerousGoods>false</DangerousGoods>
+<Kiosk>true</Kiosk>
+<StreetAccess>true</StreetAccess>
+<WheelChairAccess>true</WheelChairAccess>
+<OpenMon>08:30:00</OpenMon>
+<CloseMon>18:30:00</CloseMon>
+<OpenExceptionMon/>
+<CloseExceptionMon/>
+<OpenTue>08:30:00</OpenTue>
+<CloseTue>18:30:00</CloseTue>
+<OpenExceptionTue/>
+<CloseExceptionTue/>
+<OpenWed>08:30:00</OpenWed>
+<CloseWed>18:30:00</CloseWed>
+<OpenExceptionWed/>
+<CloseExceptionWed/>
+<OpenThu>08:30:00</OpenThu>
+<CloseThu>18:30:00</CloseThu>
+<OpenExceptionThu/>
+<CloseExceptionThu/>
+<OpenFri>08:30:00</OpenFri>
+<CloseFri>18:30:00</CloseFri>
+<OpenExceptionFri/>
+<CloseExceptionFri/>
+<OpenSat>10:00:00</OpenSat>
+<CloseSat>15:00:00</CloseSat>
+<OpenExceptionSat/>
+<CloseExceptionSat/>
+<OpenSun/>
+<CloseSun/>
+<OpenExceptionSun/>
+<CloseExceptionSun/>
+<Latitude>43.5917060000</Latitude>
+<Longitude>-79.6358590000</Longitude>
+<RadialDistanceInKM>0.7281229242</RadialDistanceInKM>
+<GMTOffset>04:00:00</GMTOffset>
+<ActivatedDate>2013-07-09T00:00:00</ActivatedDate>
+<DropOffWeekDayAirDom>17:30</DropOffWeekDayAirDom>
+<DropOffWeekDayAirUS>17:30</DropOffWeekDayAirUS>
+<DropOffWeekDayAirIntl>17:30</DropOffWeekDayAirIntl>
+<DropOffWeekDayGndDom>17:30</DropOffWeekDayGndDom>
+<DropOffWeekDayGndUS>17:30</DropOffWeekDayGndUS>
+<DropOffWeekDayGndIntl i:nil="true"/>
+<DropOffSatAirDom/>
+<DropOffSatAirUS i:nil="true"/>
+<DropOffSatAirIntl i:nil="true"/>
+<DropOffSatGndDom/>
+<DropOffSatGndUS i:nil="true"/>
+<DropOffSatGndIntl i:nil="true"/>
+</DepotLocation>
+<DepotLocation>
+<LocationId>RA4347</LocationId>
+<LocationTypes>
+<LocationType>DropBox</LocationType>
+</LocationTypes>
+<LocationName>PostNet ON119 Brampton</LocationName>
+<locationAddress>
+<AddressLine1 i:nil="true"/>
+<AddressLine2 i:nil="true"/>
+<AddressLine3 i:nil="true"/>
+<AddressType i:nil="true"/>
+<FloorNumber/>
+<StreetNumber>7700</StreetNumber>
+<UnitSuiteApt>503</UnitSuiteApt>
+<CityCode i:nil="true"/>
+<CityName>Brampton</CityName>
+<ProvinceStateCode>ON</ProvinceStateCode>
+<CountryCode>CA</CountryCode>
+<Direction i:nil="true"/>
+<PostalCode>L6Y4M3</PostalCode>
+<StreetName>Hurontario</StreetName>
+<StreetType>ST</StreetType>
+<Suffix/>
+</locationAddress>
+<ContactName>Parveen Vij or Baljit Vij</ContactName>
+<PhoneNumber>905-459-0008</PhoneNumber>
+<SpecialInstructionsEn>
+City South Plaza, northwest corner of Hurontario Street and Ray Lawson Boulevard
+</SpecialInstructionsEn>
+<SpecialInstructionsFr/>
+<Depot>511</Depot>
+<Unicode>UC55</Unicode>
+<HoldForPickup>true</HoldForPickup>
+<DangerousGoods>false</DangerousGoods>
+<Kiosk>true</Kiosk>
+<StreetAccess>true</StreetAccess>
+<WheelChairAccess>true</WheelChairAccess>
+<OpenMon>09:30:00</OpenMon>
+<CloseMon>19:00:00</CloseMon>
+<OpenExceptionMon/>
+<CloseExceptionMon/>
+<OpenTue>09:30:00</OpenTue>
+<CloseTue>19:00:00</CloseTue>
+<OpenExceptionTue/>
+<CloseExceptionTue/>
+<OpenWed>09:30:00</OpenWed>
+<CloseWed>19:00:00</CloseWed>
+<OpenExceptionWed/>
+<CloseExceptionWed/>
+<OpenThu>09:30:00</OpenThu>
+<CloseThu>19:00:00</CloseThu>
+<OpenExceptionThu/>
+<CloseExceptionThu/>
+<OpenFri>09:30:00</OpenFri>
+<CloseFri>19:00:00</CloseFri>
+<OpenExceptionFri/>
+<CloseExceptionFri/>
+<OpenSat/>
+<CloseSat/>
+<OpenExceptionSat/>
+<CloseExceptionSat/>
+<OpenSun/>
+<CloseSun/>
+<OpenExceptionSun/>
+<CloseExceptionSun/>
+<Latitude>43.6589310000</Latitude>
+<Longitude>-79.7269030000</Longitude>
+<RadialDistanceInKM>10.2366218162</RadialDistanceInKM>
+<GMTOffset>04:00:00</GMTOffset>
+<ActivatedDate>2008-11-12T00:00:00</ActivatedDate>
+<DropOffWeekDayAirDom>17:00</DropOffWeekDayAirDom>
+<DropOffWeekDayAirUS>17:00</DropOffWeekDayAirUS>
+<DropOffWeekDayAirIntl>17:00</DropOffWeekDayAirIntl>
+<DropOffWeekDayGndDom>17:00</DropOffWeekDayGndDom>
+<DropOffWeekDayGndUS>17:00</DropOffWeekDayGndUS>
+<DropOffWeekDayGndIntl i:nil="true"/>
+<DropOffSatAirDom/>
+<DropOffSatAirUS i:nil="true"/>
+<DropOffSatAirIntl i:nil="true"/>
+<DropOffSatGndDom/>
+<DropOffSatGndUS i:nil="true"/>
+<DropOffSatGndIntl i:nil="true"/>
+</DepotLocation>
+<DepotLocation>
+<LocationId>RA4451</LocationId>
+<LocationTypes>
+<LocationType>ShippingAgent</LocationType>
+</LocationTypes>
+<LocationName>NetPrint & Ship Inc (ESO)</LocationName>
+<locationAddress>
+<AddressLine1 i:nil="true"/>
+<AddressLine2 i:nil="true"/>
+<AddressLine3 i:nil="true"/>
+<AddressType i:nil="true"/>
+<FloorNumber/>
+<StreetNumber>125</StreetNumber>
+<UnitSuiteApt>B2</UnitSuiteApt>
+<CityCode i:nil="true"/>
+<CityName>Etobicoke</CityName>
+<ProvinceStateCode>ON</ProvinceStateCode>
+<CountryCode>CA</CountryCode>
+<Direction i:nil="true"/>
+<PostalCode>M8Y1H6</PostalCode>
+<StreetName>The Queensway</StreetName>
+<StreetType/>
+<Suffix/>
+</locationAddress>
+<ContactName>Alfredo Costanzo, Rachel</ContactName>
+<PhoneNumber>416-259-0092</PhoneNumber>
+<SpecialInstructionsEn>Located in the Sobeys Plaza</SpecialInstructionsEn>
+<SpecialInstructionsFr>Situe dans la Sobeys Plaza</SpecialInstructionsFr>
+<Depot>12</Depot>
+<Unicode>UC51</Unicode>
+<HoldForPickup>true</HoldForPickup>
+<DangerousGoods>false</DangerousGoods>
+<Kiosk>true</Kiosk>
+<StreetAccess>true</StreetAccess>
+<WheelChairAccess>true</WheelChairAccess>
+<OpenMon>09:00:00</OpenMon>
+<CloseMon>18:00:00</CloseMon>
+<OpenExceptionMon/>
+<CloseExceptionMon/>
+<OpenTue>09:00:00</OpenTue>
+<CloseTue>18:00:00</CloseTue>
+<OpenExceptionTue/>
+<CloseExceptionTue/>
+<OpenWed>09:00:00</OpenWed>
+<CloseWed>18:00:00</CloseWed>
+<OpenExceptionWed/>
+<CloseExceptionWed/>
+<OpenThu>09:00:00</OpenThu>
+<CloseThu>18:00:00</CloseThu>
+<OpenExceptionThu/>
+<CloseExceptionThu/>
+<OpenFri>09:00:00</OpenFri>
+<CloseFri>18:00:00</CloseFri>
+<OpenExceptionFri/>
+<CloseExceptionFri/>
+<OpenSat>10:00:00</OpenSat>
+<CloseSat>16:00:00</CloseSat>
+<OpenExceptionSat/>
+<CloseExceptionSat/>
+<OpenSun/>
+<CloseSun/>
+<OpenExceptionSun/>
+<CloseExceptionSun/>
+<Latitude>43.6305768000</Latitude>
+<Longitude>-79.4822731000</Longitude>
+<RadialDistanceInKM>13.8246011704</RadialDistanceInKM>
+<GMTOffset>04:00:00</GMTOffset>
+<ActivatedDate>2013-12-21T00:00:00</ActivatedDate>
+<DropOffWeekDayAirDom>17:00</DropOffWeekDayAirDom>
+<DropOffWeekDayAirUS>17:00</DropOffWeekDayAirUS>
+<DropOffWeekDayAirIntl>17:00</DropOffWeekDayAirIntl>
+<DropOffWeekDayGndDom>17:00</DropOffWeekDayGndDom>
+<DropOffWeekDayGndUS>17:00</DropOffWeekDayGndUS>
+<DropOffWeekDayGndIntl i:nil="true"/>
+<DropOffSatAirDom/>
+<DropOffSatAirUS i:nil="true"/>
+<DropOffSatAirIntl i:nil="true"/>
+<DropOffSatGndDom/>
+<DropOffSatGndUS i:nil="true"/>
+<DropOffSatGndIntl i:nil="true"/>
+</DepotLocation>
+</Locations>
+</GetLocationsResponse>
+</s:Body>
+</s:Envelope>

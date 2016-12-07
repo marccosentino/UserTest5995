@@ -1,0 +1,690 @@
+.sectionDivider {
+	display:block;
+	background-color:pink;
+	height:80px;
+}
+
+.dividerspace {
+	display:block;
+	height: 220px;
+}
+
+.title {
+	font-weight:bolder;
+	font-size:15px;
+}
+
+
+table tbody th,
+table tbody td {
+	padding-right: 40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.sectionspace {
+	display:block;
+	height:100px;
+}
+
+.last {
+	padding-bottom:20px;
+}
+
+table tbody th, table tbody td {
+	padding-right:0px;
+}
+
+.left {
+	padding-left:0px;
+}
+
+.right {
+	padding-right:0px;
+}
+
+.rightsome2 {
+	padding-right:4%;
+}
+
+.tableCom tr {
+	border-bottom:2px dotted grey;
+}
+
+.tableCom tr:last-child,
+.tableCom tr:first-child {
+	border-bottom: 0px;
+}
+
+
+.tableCom tbody {
+	padding:20px;
+}
+
+.table {
+	padding:25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.tableCom table thead, table tbody, table tfoot {
+	border:none;
+}
+
+table tbody tr:nth-child(even) {
+	background-color:white;
+}
+
+.columns.nopadleft {
+	padding-left:0.9375rem;
+	padding-right:0.9375rem;
+}
+
+.paraImg {
+	padding:3% 8%;
+}
+
+.paraInfo {
+	padding-left:8%;
+}
+
+.paraTitle {
+	padding-left:5%;
+}
+
+.para {
+	padding:0 5%;
+}
+
+.oneBlock {
+	padding-top:3%;
+}
+
+.recenter {
+	text-align:center;
+}
+
+.Padtop {
+	padding-top:8%;
+}
+
+
+.whiteFont {
+	color:white !important;
+}
+
+
+.Pad {
+	padding:5% 8%;
+}
+
+.Padbottom {
+	padding-bottom:5%;
+}
+
+a.button.Padbottom {
+	margin-bottom:5%;
+}
+.Padbottomsome {
+	padding-bottom:2%;
+}
+
+.paraCenter {
+	padding-left:6%;
+	padding-right:6%;
+}
+
+
+.notop {
+	padding-top:2%;
+}
+
+.hasSearch input{
+    background: transparent;
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 3px solid #f5f6f6;
+    padding-bottom: 0px;
+    box-shadow: none;
+    color: white; }
+	
+.hasSearch input:focus {
+      border: none;
+      border-bottom: 3px solid #008faf; 
+	  background-color:transparent;}
+	 
+@media (max-width: 639px) {
+.hasSearch input {
+    font-size: 1.5rem;
+    text-align: center;
+}
+}
+
+.blue {
+	color:#001996;
+}	  
+
+.leftsome {
+	padding-left:2%;
+}
+
+.rightsome {
+	padding-right:2%;
+}
+
+
+ol.num {
+    counter-reset: num;
+}
+ol.alpha {
+    counter-reset: alpha
+}
+
+ol li {
+    list-style: none;
+    position: relative;
+}
+ol.num > li:before {
+    counter-increment: num;
+    content:counter(num, decimal)") "
+}
+ol.alpha > li:before {
+    counter-increment: alpha;
+    content:counter(alpha, lower-alpha)") "
+}
+
+.paraFont {
+	 font-size:1.8rem;
+ }
+ 
+.leftmore {
+	padding-left:8%;
+}
+
+.toRight {
+	margin-left:50%;
+}
+
+.inline {
+	display:inline;
+}
+
+.Padtopsome {
+	padding-top:4%;
+}
+
+.bordertop {
+	border-top:2px solid white;
+}
+
+.navy {
+	background-color:#001996;
+}
+
+.ralabel {
+	font-size: 2rem;
+}
+
+.godown {
+	margin-top:3%;
+}
+
+.godownmore {
+	margin-top:5%;
+}
+
+.form h6 {
+	color:red;
+	font-size:1.5rem;
+}
+
+.form label{
+	color:black;
+	font-size:1.5rem;
+}
+
+.bordertopblack {
+	border-top:1px solid grey;
+}
+
+.formblock {
+	padding:4%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.formdivider {
+	background-color:white;
+	height:20px;
+}
+
+.alpha > li {
+	padding-top:1%;
+}
+
+.greyBckground {
+	background-color:#F0F8FF;
+}
+
+.campaign h6 {
+	font-size:1.5rem;
+}
+
+.campaign h3 {
+	padding-bottom:0;
+}
+.campaign h6.smallfont {
+	font-size:1rem;
+}
+
+
+.underlined{
+	border-bottom:1px solid grey;
+}
+
+.serviceTitle th {
+	padding-bottom:2%;
+	font-size:2rem;
+}
+
+.firstone {
+	margin-left: -2rem;
+}
+
+.left2 {
+	padding-left:3%;
+}
+
+.left3 {
+	padding-left:10%;
+}
+
+.godown1 {
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+.serviceRow {
+	margin-left:0;
+	margin-right:0;
+	max-width:200rem;
+}
+
+.goup {
+	margin-top:-2%;
+}
+
+.blank {
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.nextDay, .recentDay {
+	display:none;
+}
+
+.mobonextDay, .mobosameDay {
+	display:none;
+}
+
+.opencell {
+	display:table-cell;
+	font-size:2rem;
+	width:20%;
+	border-left:2px solid grey;
+	border-right:2px solid grey;
+	border-top:2px solid grey;
+	
+	z-index:2;
+}
+
+.cellactive {
+	z-index:4;
+}
+
+.space {
+	margin-right:2%;
+}
+
+.openul {
+	z-index:2;
+	position:absolute;
+	background-color:white;
+	margin-left:0;
+	margin-bottom:0;
+}
+
+.widthcheck {
+	width:94%;
+}
+
+.borderActive {
+	border-bottom:2px solid grey;	
+}
+
+.tableopen {
+	z-index:3;
+	padding:25px;
+	margin-top:2.1%;
+	border-left:2px solid grey;
+	border-right:2px solid grey;
+	border-bottom:2px solid grey;
+	border-top:2px solid grey;
+}
+
+.servicehr {
+    display:block;
+	border-bottom:2px solid grey;
+	width:67%;
+	margin-left:33%;
+	height:1px;
+
+}
+
+.mobileM {
+	padding-left:3%;
+	padding-right:3%;
+	display:none;
+}
+
+.mobileM td{
+	padding-top:2%
+}
+
+
+.mobileM td.left3 {
+	padding-left:24%;
+}
+
+.mobileM .title {
+	font-size:18px;
+}
+
+.mobileCom tr{
+	border-bottom:2px solid grey;
+}
+
+.mobileCom tr:first-child {
+	border-bottom:none;
+}
+
+.mobileCom .nobottomline {
+	border-bottom:none;
+}
+
+.mobileM .Padtop {
+	padding-top:8%;
+}
+
+.shippingCom {
+	background-image: url("../img/ShippingBanner.png");
+}
+
+.fontSize15 {
+	font-size:15px;
+}
+
+.fontSize13 {
+	font-size:13px;
+}
+
+a.button, button.button .fontSize12 {
+	font-size:12px;
+}
+
+.nobottom {
+	padding-bottom:0;
+}
+
+.moveup {
+	margin-top:-200px;
+}
+
+.shippingservices .medium-6 .right {
+	padding-right:0;
+}
+
+.shippingservices .medium-6 {
+	margin-top:0;
+}
+
+.shippingservices {
+	background-color:#f5f6f6;
+}
+
+.grey {
+	background-color:#f5f6f6;
+}
+
+.wareContain {
+	background-color:#001996;
+}
+
+.darkBlue {
+	background-color:#001996;
+}
+
+.lightBlue {
+	background-color:#87CEFA;
+}
+
+a.button.longButton {
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.Padbottommore {
+	padding-bottom:10%;
+}
+
+.container {
+	padding:5% 5%;
+}
+
+.angleHeader {
+	height:440px;
+}
+
+.Usheader {
+	height:460px;
+}
+
+.smallHeader {
+	height:330px;
+}
+
+.tinyHeader {
+	height:330px;
+}
+
+.Frieghtheader {
+		height:430px;
+}
+
+.aerHeader {
+	height:330px;
+}
+	
+.downheader {
+	height:380px;
+}
+
+.formheader {
+	height:480px;
+}
+
+.mediumHeader {
+	height:380px;
+}
+
+.mobomore {
+	height: 420px;
+}
+
+.shippingafterAngleHeader .container {
+	padding-top:25vh;
+}
+
+.shippingwarehousing {
+	background-color:white;
+}
+
+.white {
+	background-color:white;
+}
+
+.packageFirstBlock {
+	padding-top: 15%;
+}
+
+.retailTransport .usShipping {
+	background-image:url("../img/internationalBanner.png"); 
+}
+
+.USCom {
+	background-image:url("../img/usBanner.png"); 
+}
+
+.speServecom {
+	background-image:url("../img/specializedServiceBanner.png");
+}
+
+.retailTransport .dangPic {
+	background-image:url("../img/dangerousGoods.png");
+}
+
+.USINTERmobo .container {
+	padding-top:1vh;
+}
+
+  .smallpage:before {
+	padding-top:5%;
+    content: '';
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    height: 55%;
+    width: 50.25%;
+    background: white;
+    -ms-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 10deg);
+    z-index: 3; }
+  .smallpage:after {
+	padding-top:5%;
+    content: '';
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    height: 55%;
+    width: 50%;
+    background: white;
+    -ms-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg);
+    z-index: 3; }
+	
+	
+.container.absnotop {
+	padding-top:0;
+}	
+
+
+
+.nopadbottom {
+	padding-bottom:0;
+}
+
+.tableInfoextra {
+	position:absolute;
+	display:block;
+	background-color:white;
+	width:40%;
+	font-size:15px;
+	z-index:10;
+	margin-left:48%;
+	margin-top:5%;
+	padding:8% 10%;
+	
+}
+
+.topdown {
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+
+.mobileM .Padtopsome {
+	padding-top:10%;
+}
+.zeroPadding{
+	padding-right:0;
+	padding-left:0;
+}
+.smallPadding{
+	padding-left:2.5em;
+	padding-right:2.5em;
+}
+.zeroPaddingLeft{
+	padding-left:0em;
+	padding-right:2em;
+}
+.titlePadding{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.greyBack{
+	background-color:#f5f6f6;
+}
+
+.hastop .Padtop {
+	padding-top:20%;
+}
+
+.Padtop .auto {
+	padding-top:12%;
+}
+
+.f18 {
+	font-size:18px;
+}
+
+.displayblock {
+	display:block;
+}
+
+.Fwidth {
+	width:40%;
+}
+
+.container.smallbottom {
+	padding-bottom:4%;
+}
+
+.FreightPage.moboPbottomNo {
+	padding-bottom:0px;
+}
+
+.FreightPage.showabsnotop{
+	padding-top:0px;
+}
+
+.streetback {
+	background-image:url("../img/street.jpg");
+	left: 0; 
+}
+
+.transportBackground {
+	background-image:url("../img/signup-cta2.jpg");
+	background-repeat:no-repeat;
+}

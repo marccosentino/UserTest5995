@@ -1,0 +1,114 @@
+.deliveryDatePadding{
+    padding-top: 2%;
+  }
+  .trackingResultsPadding{
+    padding-bottom: 0px;
+  }
+  .resultsFilter{
+    margin-bottom: 5%;
+    padding-bottom: 0;
+  }
+a.button.outlineOnBlue,
+button.button.outlineOnBlue {
+  background-color: transparent;
+  color: blue !important;
+  border: 1px solid blue; }
+  a.button.outlineOnBlue:hover, a.button.outlineOnBlue:focus,
+  button.button.outlineOnBlue:hover,
+  button.button.outlineOnBlue:focus {
+    background-color: blue;
+    color: #fff !important;
+    text-decoration: none; }
+
+a.button.nextPrevious,
+button.button.nextPrevious {
+  background-color: transparent;
+  color: blue !important;
+}
+  a.button.nextPrevious:hover, a.button.nextPrevious:focus,
+  button.button.nextPrevious:hover,
+  button.button.nextPrevious:focus {
+    color: #d3d3d3 !important;
+    text-decoration: none; }
+  .trackingDetailsModule .container {
+    padding: 2% 2%; }
+  .trackingDetailsTitle{
+    font-weight: 400;
+  }
+  .trackingDateSize{
+    font-size:1.8em;
+  }
+  .zeroPadding{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .zeroWeight{
+    font-weight: 0 !important;
+  }
+.emailBar {
+  padding: 2% 7%;
+  position: relative; }
+  .emailBar h5 {
+    font-weight: 200; }
+  .emailBar form {
+    margin: 15px auto 0;
+    width: 100%;
+    position: relative; }
+  .emailBar input[type="text"] {
+    background: transparent;
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 3px solid #f5f6f6;
+    padding-bottom: 10px;
+    box-shadow: none;
+    color: black }
+    .emailBar input[type="text"]:focus {
+      border: none;
+      border-bottom: 3px solid #008faf; }
+  .emailBar .fa-search {
+    font-size: 4rem;
+    color: white;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 0;
+    top: -10px; }
+    .searchBar .fa-search:hover, .searchBar .fa-search:focus {
+      color: #0a38e6; }
+  .zeroTopMargin{
+    margin-top: 0 !important;
+  }
+    .zeroLeftPadding{
+    padding-left: 0 !important;
+  }
+  .emailPadding{
+    padding-bottom: 5% !important;
+  }
+  .fontRed{
+    color: #f00000;
+  }
+  .fontGreen{
+    color: #64a70b;
+  }
+  .checkBig {
+  width: 25px;
+  height: 25px;
+  margin: 10px 10px 10px 10px;
+  float: left; }
+
+  .exportPageTracking {
+  float: left;
+  }
+  .exportPageTracking li {
+    display: inline-block;
+    padding: 0 10px; }
+    .exportPageTracking li a {
+      color: black !important;
+      font-size: 1.4rem; }
+  .exportPageTracking .fa {
+    padding: 0 10px; }
+  .resultsDisplay{
+    display:initial !important;
+  }
