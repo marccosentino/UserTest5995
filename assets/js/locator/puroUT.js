@@ -20,27 +20,27 @@ var data = [{LocationType:"ShippingAgent",
 			 LocationName:"PostNet Mississauga ON131",
 			 Latitude:43.5917060000,
 			 Longitude:-79.6358590000,
-			 StreetNumber:50,
+			 StreetNumber:"50",
 			 StreetName:"Burnhamthorpe",
 			 StreetType:"RD",
 			 CityName:"Mississauga",
 			 ProvinceStateCode:"ON",
 			 PostalCode:"L5B3C2",
 			 LocationId:"RA4437",
-			 PhoneNumber:905-232-9322
+			 PhoneNumber:"905-232-9322"
 			},
 			{LocationType:"DropBox",
 			 LocationName:"PostNet ON119 Brampton",
 			 Latitude:43.6589310000,
 			 Longitude:-79.7269030000,
-			 StreetNumber:7700,
+			 StreetNumber:"7700",
 			 StreetName:"Hurontario",
 			 StreetType:"ST",
 			 CityName:"Brampton",
 			 ProvinceStateCode:"ON",
 			 PostalCode:"L6Y4M3",
 			 LocationId:"RA4347",
-			 PhoneNumber:905-459-0008
+			 PhoneNumber:"905-459-0008"
 			},
 			{LocationType:"ShippingAgent",
 			 LocationName:"NetPrint & Ship Inc (ESO)",
@@ -53,7 +53,7 @@ var data = [{LocationType:"ShippingAgent",
 			 ProvinceStateCode:"ON",
 			 PostalCode:"M8Y1H6",
 			 LocationId:"RA4451",
-			 PhoneNumber:416-259-0092
+			 PhoneNumber:"416-259-0092"
 			}];
 			
 window.onload = function(event) {
@@ -410,7 +410,7 @@ puro.locator = {
                                              var         info_window_content = '<div style="float: left"><p class="fonts"><strong>' + data[ i ].LocationName +
                                                                                                                                        '</strong></p><p class="fonts">' + data[ i ].StreetNumber + ' ' + data[ i ].StreetName + ', ' + data[ i ].StreetType  + '<br />' 
                                                                                                                                                                                                                        + data[ i ].CityName + ' ' + data[ i ].ProvinceStateCode + ', ' + data[ i ].PostalCode + '</p>' +
-                                                                                                                                         '<p class="fonts">Shipping centre<br />' + data[ i ].PhoneNumber + '</p></div><div id="pano" style="width: 250px; height: 200px; float: right;"></div>';
+                                                                                                                                         '<p class="fonts">Shipping centre<br />' + data[ i ].PhoneNumber + '</p></div>';
                               
 
                               
