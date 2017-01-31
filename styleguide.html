@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/appstyle.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+
+    <!-- Style guide-specific CSS goes here. -->
+    <style>
+    /* This styles individual sections of the style guide */
+    .ss-section:not(:last-child) {
+      padding-bottom: 4rem;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 4rem;
+    }
+
+    /* This styles code blocks used for examples. */
+    .ss-code code {
+      display: block;
+      padding: 1rem;
+      overflow-x: scroll;
+      margin-bottom: 1.5rem;
+    }
+
+    /* This styles the example rows used in the grid documentation. */
+    .row.display {
+      background: #eee;
+      font-size: 11px;
+      margin-bottom: 10px;
+      line-height: 2rem;
+      border: solid 1px #c6c6c6;
+      margin-left: 0 !important;
+      margin-right: 0 !important; }
+      .row.display .columns:nth-child(2), .row.display .columns.small-centered, .row.display .columns.large-centered {
+        background: #e1e1e1; }
+      .row.display .columns.color-end {
+        background: #d4d4d4; }
+
+    /* This styles the color blocks used in the color documentation. */
+    .color-block {
+      border-radius: 2px;
+      display: block;
+      padding: 8px 8px 6px;
+      color: #333;
+      text-transform: uppercase;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+      .color-block span {
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0.42857rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- =================
+    ====== MEGA NAV ======
+    ================== -->
+    
+    <nav class="megaNav">
+    	<nav class="topNav">
+    		<div class="row">
+    			<div class="medium-3 columns">
+    				<a href="#"><img src="assets/img/logo.png" alt="Purolator logo" class="logo"></a>
+    			</div>
+    			<div class="medium-9 columns">
+    				<div class="login">
+    					<p></p>
+
+    				</div>
+
+    			</div>
+    		</div>
+    	</nav> <!-- .topNav -->
+    
+    	<div class="mainNav">
+    		<ul class="mainAccordion">
+    
+    			<!-- SMALL ICON -->
+    			<li><a href="#"><img src="assets/img/logoIcon.png" alt="Purolator logo" class="logoIcon mobileHidden"></a></li>
+    
+    <!-- =================
+    ====== The Grid ======
+    ================== -->
+    
+    			<li class="navItem navShipping">
+    				<a href="#" class="navTitle toggle"><h3>The Grid<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#the-grid"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>The Grid</h4></a>
+    							<h5>Problem: You've got tons of content, each needing different sized vertical columns, and don't know how to quick and easily get it all done. Solution: The awesome grid!</h5>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<a href="#grid-overview"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Overview</h4></a>
+
+    							<div class="mobileHidden">
+    							<p></p>
+    								<a href="#grid-nesting"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Nesting</h4></a>
+    							</div>
+    							    							<div class="mobileHidden">
+    							<p></p>
+    								<a href="#grid-small-grid"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Small Grid</h4></a>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<a href="#grid-how-to-use"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>How to Use</h4></a>
+    							<p></p>
+    							<a href="#grid-nesting-rows" class="mobileHidden"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Nesting Rows</h4></a>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns navButtons">
+    						<div class="container">
+
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+    
+    <!-- =================
+    ====== Colours =======
+    ================== -->
+    
+    			<li class="navItem navFreight">
+    				<a href="#" class="navTitle toggle"><h3>Colours<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#colours"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Colours</h4></a>
+    							<h5>See all of Purolator's Primary and Secondary colours.</h5>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#primary-colours"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Primary Colours</h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#secondary-colours"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Secondary Colours</h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns navButtons">
+    						<div class="container">
+
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+    
+    <!-- =================
+    ====== Typography =====
+    ================== -->
+    
+    			<li class="navItem navLogistics">
+    				<a href="#" class="navTitle toggle"><h3>Typography<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#typography"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Typography</h4></a>
+    							<h5>See the different ways Purolator uses headings and fonts.</h5>
+        						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#heading1"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Heading Level 1</h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#heading2"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Heading Level 2</h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#heading3"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Heading Level 3</h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#heading4"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Heading Level 4</h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    							<a href="#heading5"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Heading Level 5</h4></a>
+    								<p></p>
+    								
+    							</div>
+    							<div class="wrapper">
+    							<a href="#typecase"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Type Case</h4></a>
+    								<p class="seeStories"></p>
+    								
+    							</div>
+
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+    
+    <!-- =================
+    = Buttons =
+    ================== -->
+    
+    			<li class="navItem navBusiness">
+    				<a href="#" class="navTitle toggle"><h3>Buttons<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#buttons"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Buttons</h4></a>
+    							<h5>See some of the buttons that Purolator uses in each of its pages.</h5>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#bluebuttons"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Blue Buttons</h4></a>
+    								<p> </p>
+    							</div>
+    							<a href="#yellowbuttons"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Yellow Buttons</h4></a>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<a href="#outlinedbuttons"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Outlined Buttons</h4></a>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<p class="seeStories"></p>
+    							</div>
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+    
+    <!-- =================
+    === Forms ===
+    ================== -->
+    
+    			<li class="navItem navHelp">
+    				<a href="#" class="navTitle toggle"><h3>Forms<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Forms</h4></a>
+    							<h5>See how Purolator's forms are designed.</h5>
+    							
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#formelements"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Elements of a Form</h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#formuse"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>How to Use</h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#formlearning"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Learn about Forms</h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#formexamples"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i>Form Example</h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns navButtons">
+    						<div class="container">
+    							
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+    
+
+    <!-- =================
+    === Tables ===
+    ================== -->
+    
+    			<li class="navItem navHelp">
+    				<a href="#" class="navTitle toggle"><h3>Tables<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Tables</h4></a>
+    							<h5>Coming Soon!!!</h5>
+    							
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#formelements"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#formuse"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#formlearning"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#formexamples"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns navButtons">
+    						<div class="container">
+    							
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+    
+    <!-- =================
+    === Icons ===
+    ================== -->
+    
+    			<li class="navItem navHelp">
+    				<a href="#" class="navTitle toggle"><h3>Icons<i class="fa fa-angle-down mobileHidden menuIcon" aria-hidden="true"></i></h3></a>
+    				<ul class="inner navDropdown">
+    					<li class="medium-3 columns navCTA mobileHidden">
+    						<div class="container">
+    							<a href="#"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Icons</h4></a>
+    							<h5>Coming Soon!!!</h5>
+    							
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#formelements"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#formuse"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns">
+    						<div class="container">
+    							<div class="wrapper">
+    								<a href="#formlearning"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    							<div class="wrapper">
+    								<a href="#formexamples"><h4><i class="fa fa-angle-right mobileHidden" aria-hidden="true"></i></h4></a>
+    								<p></p>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="medium-3 columns navButtons">
+    						<div class="container">
+    							
+    						</div>
+    					</li>
+    				</ul>
+    			</li>
+
+    
+    <!-- APP -->
+    
+    			<li class="navFooter desktopHidden">
+    				<ul>
+    					<li class="navFooterTitle">
+    						<h4>Our mobile app</h4>
+    					</li>
+    					<li class="mobileApp">
+    						<a href="#"><img src="assets/img/appstore.png" alt="Click to download our app on the App Store" class="webApp"></a>
+    						<a href="#"><img src="assets/img/googleplay.png" alt="Click to download our app on Google Play" class="webApp"></a>
+    					</li>
+    				</ul>
+    			</li>
+    
+    <!-- LANGUAGE CHANGE -->
+    
+    			<li class="navFooter desktopHidden">
+    				<h4 class="mobileLanguage"><a href="#" class="english active">EN</a> | <a href="#" class="french">FR</a></h4>
+    			</li>
+    
+    		</ul>
+    	</div>
+    </nav>
+
+
+    <div class="column row">
+
+      <div class="large-12 medium-12 columns">
+          <section class="ss-section" id="the-grid">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            <h1>The Grid</h1><p id="grid-overview">Problem: You&#39;ve got tons of content, each needing different sized vertical columns, and don&#39;t know how to quick and easily get it all done. Solution: The awesome grid!</p>
+
+<hr>
+<h2 >Overview</h2><p id="grid-nesting">The grid is built around two key elements: rows and columns. Rows create a max-width and contain the columns, and columns create the final structure. Everything on your page that you don&#39;t give a specific structural style to should be within a row or column.</p>
+<hr>
+<h2 >Nesting</h2><p id="grid-how-to-use">In the Grid you can nest columns down as far as you&#39;d like. Just embed rows inside columns and go from there. Each embedded row can contain up to 12 columns.</p>
+<hr>
+<h2 >How to Use</h2><p>Using this framework is easy. Here&#39;s how your code will look when you use a series of <div> tags to create vertical columns.</p>
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-6 medium-4 large-3 columns"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-6 medium-8 large-9 columns"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div><div class="row display">
+  <div class="small-12 large-4 columns">4</div>
+  <div class="small-12 large-4 columns">4</div>
+  <div class="small-12 large-4 columns">4</div>
+</div>
+<div class="row display">
+  <div class="small-12 large-3 columns">3</div>
+  <div class="small-12 large-6 columns">6</div>
+  <div class="small-12 large-3 columns">3</div>
+</div>
+<div class="row display">
+  <div class="small-12 large-2 columns">2</div>
+  <div class="small-12 large-8 columns">8</div>
+  <div class="small-12 large-2 columns">2</div>
+</div>
+<div class="row display">
+  <div class="small-12 large-3 columns">3</div>
+  <div class="small-12 large-9 columns">9</div>
+</div>
+<div class="row display">
+  <div class="small-12 large-4 columns">4</div>
+  <div class="small-12 large-8 columns">8</div>
+</div>
+<div class="row display">
+  <div class="small-12 large-5 columns">5</div>
+  <div class="small-12 large-7 columns" id="grid-nesting-rows">7</div>
+</div>
+<div class="row display" >
+  <div class="small-12 large-6 columns">6</div>
+  <div class="small-12 large-6 columns">6</div>
+</div>
+
+<hr>
+<h2 >Nesting Rows</h2><p>In the Grid you can nest columns down as far as you&#39;d like. Just embed rows inside columns and go from there. Each embedded row can contain up to 12 columns.</p>
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-8 columns"</span>&gt;</span>8
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-8 columns"</span>&gt;</span>8 Nested
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-8 columns"</span>&gt;</span>8 Nested Again<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-4 columns"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-4 columns"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-4 columns"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div><div class="row display">
+  <div class="small-8 columns">8
+    <div class="row">
+      <div class="small-8 columns" id="grid-small-grid">8 Nested
+        <div class="row">
+          <div class="small-8 columns" >8 Nested Again</div>
+          <div class="small-4 columns" >4</div>
+        </div>
+      </div>
+      <div class="small-4 columns">4</div>
+    </div>
+  </div>
+  <div class="small-4 columns">4</div>
+</div>
+
+<hr>
+<h2 >Small Grid</h2><p>As you&#39;ve probably noticed in the examples above, you have access to a small, medium, and large grid. If you know that your grid structure will be the same for small devices as it will be on large devices, just use the small grid. You can override your small grid classes by adding medium or large grid classes.</p>
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-2 columns"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-10 columns"</span>&gt;</span>10, last<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-3 columns"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"small-9 columns"</span>&gt;</span>9, last<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div><div class="row display">
+  <div class="small-2 columns">2</div>
+  <div class="small-10 columns">10, last</div>
+</div>
+<div class="row display">
+  <div class="small-3 columns">3</div>
+  <div class="small-9 columns" id="colours">9, last</div>
+</div>
+          </section>
+
+
+          <section class="ss-section" >
+            <h1 id="primary-colours">Colours</h1><p>Below you can find the different color values that are used across the page templates.</p>
+
+<hr>
+<h2>Primary Colours</h2>
+<div class="row up-1 medium-up-3 large-up-5" >
+  <div class="column">
+    <div class="color-block" >
+      <span style="background: #001996"></span>
+      <p>#001996</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #f00000"></span>
+      <p id="secondary-colours">#f00000</p>
+    </div>
+  </div>
+</div>
+<br>
+<h2>Secondary Colours</h2>
+<div class="row up-1 medium-up-3 large-up-5">
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #008faf"></span>
+      <p>#008faf</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #fbdd40"></span>
+      <p>#fbdd40</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #f5f6f6"></span>
+      <p>#f5f6f6</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #A2AAAD"></span>
+      <p>#A2AAAD</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #FFA300"></span>
+      <p>#FFA300</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #64A70B"></span>
+      <p>#64A70B</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #C800A1"></span>
+      <p>#C800A1</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #000000" ></span><p id="typography">#000000</p>
+    </div>
+  </div>
+</div>
+          </section >
+          <section class="ss-section">
+            <h1>Typography</h1><p>This design uses Open Sans for headings and paragraph text.</p>
+
+<hr>
+<h2>Headings</h2><p>Headings are used to denote different sections of content, usually consisting of related paragraphs and other HTML elements. They range from h1 to h6 and should be styled in a clear hierarchy (i.e., largest to smallest)</p>
+<hr>
+<h2 id="heading1">Paragraphs</h2><p>Paragraphs are groups of sentences, each with a lead (first sentence) and transition (last sentence). They are block level elements, meaning they stack vertically when repeated. Use them as such.</p>
+<hr>
+<h1 id="heading2">Heading Level 1</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+<h2 id="heading3">Heading Level 2</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+<h3 id="heading4">Heading Level 3</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+<h4 id="heading5">Heading Level 4</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+<h5 id="heading6">Heading Level 5</h5>
+
+<p id="typecase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+<h6>Heading Level 6</h6>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+
+<h2>Type Case</h2>
+
+<p id="buttons">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum, a optio odio placeat debitis ullam aut non distinctio.</p>
+          </section>
+
+<section class="ss-section" id="buttons">
+            <h1>Buttons</h1><p>Buttons are tied to an action of some kind, whether that button is on a cheese dispenser or launches the rocket that you&#39;re strapped to. On the web, we follow similar conventions.</p>
+
+<hr>
+<p >These buttons are primary calls to action and should be used sparingly. Their style can be adjusted with the <code>.outlineOnWhite</code>, <code>.outlineOnColour</code>, <code>.blue</code>,and <code>.yellow</code> classes.</p>
+
+
+<div class="ss-code"><pre><code class="html">
+
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button outlineOnWhite"</span>&gt;</span>Outlines on White button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button outlineOnColour"</span>&gt;</span>Outline on Color button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span id="bluebuttons" class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button blue"</span>&gt;</span>Blue button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"button yellow"</span>&gt;</span>Tiny button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span></code></pre></div>
+
+<div>
+	<h2>Blue Buttons</h2>
+	<p >Blue buttons indicates Purolator tasks and tools (Sign up, Tracking etc...)</p>
+	<a id="yellowbuttons" href="#" class="button blue">Blue button</a>
+</div>
+<br>
+<div>
+	<h2>Yellow Buttons</h2>
+	<p >Yellow buttons indicate information based content (Learn more, information pages)</p>
+	<a id="outlinedbuttons" href="#" class="button yellow">Yellow button</a>
+</div>
+<br>
+<div>
+	<h2>Outlined Buttons</h2>
+	<p>Outlined buttons are associated with field-type and secondary button tasks (Login, Get Notified, Close) Grey buttons are also used when 2 or more buttons are located together (ie: Submit and Close buttons)</p>
+	<a href="#" class="button outlineOnWhite">Outline on White button</a>
+
+</div>
+<br>
+<div class="ss-code-live" style="background-color: #001996; padding: 15px;">
+	<a id="forms" href="#" class="button outlineOnColour" style="margin-bottom: 15px;">Outline on Colour button</a>
+</div>
+
+          </section>
+          <section class="ss-section" id="forms">
+            <h1 id="formelements">Forms</h1><p class="lead">Use forms to allow users to interact with the site and provide information to the company.</p>
+
+<hr>
+<h2>Elements of a Form</h2><p>A form should be marked up using its default HTML properties. The ones we make use of include (in hierarchical order):</p>
+<ul>
+<li><p>Form</p></li>
+<li><p>Label</p></li>
+<li><p>Input</p></li>
+<li><p>Select</p></li>
+<li><p id="formuse">Text area</p></li>
+<li><p>Button</p></li>
+</ul>
+<hr>
+<h2>How to Use</h2><p>Make forms great and easy to use with the following rules:</p>
+<ul>
+<li><p>Wrap checkboxes and radio buttons within labels for larger hit areas, and be sure to set the for, name, and id attributes for all applicable elements.</p></li>
+<li><p id="formlearning">Series of checkboxes and radio buttons below within a <code>&lt;ul class=&quot;inline-list&quot;&gt;</code>.</p></li>
+<li><p>Before selecting any set of fields to use for a required input, explore other options (e.g., radio buttons over select lists).</p></li>
+</ul>
+<hr>
+<h2>Learn All About Forms</h2><p id="formlayouts">Check out the <a href="http://foundation.zurb.com/sites/docs">Foundation Docs</a> to learn about how flexible our forms are for creating different layouts. It works perfectly with the grid to meet all your form needs.</p>
+<hr>
+<h2>Form Layouts</h2><p>Form elements in Foundation are styled based on their type attribute rather than a class. Inputs in Foundation have another major advantage — they are full width by default. That means that inputs will run as wide as the column that contains them. However, you have two options which make these forms extremely versatile:</p>
+<ul>
+<li><p id="formexamples">You can size inputs using column sizes, like <code>.medium-6</code>, <code>.small-6</code>.</p></li>
+<li><p>You can create row elements inside your form and use columns for the form, including inputs, labels and more. Rows inside a form inherit some special padding to even up input spacing.</p></li>
+</ul>
+<hr>
+<h2>Form Example</h2><div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">form</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-12 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"error-text"</span>&gt;</span>Lorem ipsum dolor set imet&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"error-icon"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag"><span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"fa fa-exclamation-triangle"</span> <span class="hljs-attribute">aria-hidden</span>=<span class="hljs-value">"true"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>   
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"input-group"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"error"</span></span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"error-text"</span>&gt;</span>Lorem ipsum dolor set imet&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"error-icon"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag"><span class="hljs-tag">&lt;<span class="hljs-title">i</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"fa fa-exclamation-triangle"</span> <span class="hljs-attribute">aria-hidden</span>=<span class="hljs-value">"true"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span> 
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-12 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Select Box<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">select</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"good"</span>&gt;</span>Good<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"better"</span>&gt;</span>Better<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">option</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"best"</span>&gt;</span>Best<span class="hljs-tag">&lt;/<span class="hljs-title">option</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">select</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Choose Your Favorite<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"radio"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"radio1"</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"radio1"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"radio1"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">"radio1"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"radio-check"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"custom-radio"</span>&gt;</span><span class="hljs-tag"><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"radio-inner"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>&lt;/<span class="hljs-title">span</span>&gt;</span>Red<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"radio"</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"radio2"</span> <span class="hljs-attribute">value</span>=<span class="hljs-value">"radio2"</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"radio2"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">"radio2"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"radio-check"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"custom-radio"</span>&gt;</span><span class="hljs-tag"><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"radio-inner"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>&lt;/<span class="hljs-title">span</span>&gt;</span>Blue<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-6 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Check these out<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"checkbox1"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">"checkbox1"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"radio-check"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"custom-checkbox"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>Checkbox 1<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">input</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"checkbox2"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">label</span> <span class="hljs-attribute">for</span>=<span class="hljs-value">"checkbox2"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"radio-check"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"custom-checkbox"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>Checkbox 2<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"large-12 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>Textarea Label<span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">textarea</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"placeholder"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">textarea</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">form</span>&gt;</span></code></pre></div>
+
+<div class="ss-code-live"><form>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Label</label>
+      <div class="input-group">
+        <input type="text" placeholder="placeholder">
+        <p class="error-text">Lorem ipsum dolor set imet<span class="error-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></span></p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Label</label>
+      <div class="input-group">
+        <input type="text" class="error" placeholder="placeholder">
+        <p class="error-text">Lorem ipsum dolor set imet<span class="error-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></span></p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Select Box</label>
+      <select>
+        <option value="good">Good</option>
+        <option value="better">Better</option>
+        <option value="best">Best</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Choose Your Favorite</label>
+      <input type="radio" name="radio1" value="radio1" id="radio1"><label for="radio1" class="radio-check"><span class="custom-radio"><span class="radio-inner" style="top:10px;"></span></span>Red</label>
+      <input type="radio" name="radio2" value="radio2" id="radio2"><label for="radio2" class="radio-check"><span class="custom-radio"><span class="radio-inner" style="top:10px;"></span></span>Blue</label>
+    </div>
+    <div class="large-6 columns">
+      <label>Check these out</label>
+      <input id="checkbox1" type="checkbox"><label for="checkbox1" class="radio-check"><span class="custom-checkbox"></span>Checkbox 1</label>
+      <input id="checkbox2" type="checkbox"><label for="checkbox2" class="radio-check"><span class="custom-checkbox"></span>Checkbox 2</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Textarea Label</label>
+      <textarea placeholder="placeholder"></textarea>
+    </div>
+  </div>
+</form></div>
+          </section>
+      </div>
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
